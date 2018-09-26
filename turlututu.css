@@ -27,7 +27,7 @@ body{
 }
 /* COLOR BACK END*/
 /* NAVBAR Start */
-li a{
+/*li a{
     list-style: none;
     color: white;
     text-decoration: none;
@@ -49,7 +49,7 @@ li a{
     justify-content: space-around;
     width: 600px;
     list-style-type: none;
-}
+}*/
 .login {
     text-decoration: none;
     color: white;
@@ -57,6 +57,11 @@ li a{
 
 /* NAVBAR END */ 
 /* HEADER Start */
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
 .imgperso{
     width: 33%;
 }
@@ -75,13 +80,8 @@ li a{
 .empty{
     width: 33%;
 }
-header {
-    display: flex;
-    justify-content: space-around;
-    padding: 50px;
-}
 /* BUTTON TOP */
-.buttop {
+/*.buttop {
     background-color: orange;
     margin: 0;
     padding: 15px;
@@ -91,13 +91,16 @@ header {
     border-radius: 12px;
 
 }
-
+*/
 /* HEADER END */
 /* MAIN St */
 main{
     width: 100%;
     margin: 0;
     padding: 0;
+}
+.title_for {
+    margin: auto;
 }
 .content{
     margin: auto;
@@ -106,9 +109,6 @@ main{
     flex-flow: row wrap;
     max-width: 1140px;
     color: white;
-}
-.title_for {
-    margin: auto;
 }
 .text {
     width: 50%;
@@ -137,7 +137,7 @@ h2 {
     font-size: 100px;
 }
 /* BUTTON BOTTOM */
-.buttonbott{
+/*.buttonbott{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -166,10 +166,10 @@ h2 {
     color: white;
     border: 2px solid white;
     border-radius: 12px;
-}
+}*/
 /*MAIN END*/
 /*FOOTER NAV ST */
-li a{
+/*li a{
     list-style: none;
     color: white;
     text-decoration: none;
@@ -192,7 +192,7 @@ li a{
     width: 600px;
     list-style-type: none;
 
-}
+}*/
 .copyright {
     display: flex;
     align-self: flex-end;
